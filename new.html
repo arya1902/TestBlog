@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+   
+.col {
+        list-style-type: none;
+        margin: 0;
+        width: 200px;
+        background-color: gray;
+        height: 100%;
+        position: fixed;
+        
+        
+    }
+    .col li a{
+        display: block;
+        text-decoration: none;
+        padding: 20px 10px;
+        color: black;
+        font-size: 25px;
+    }
+    .col li a:hover{
+        /*background-color: azure;*/
+        color: red;
+    }
+    .box{
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        height: 55px;
+       
+    }
+    ol a  {
+        float: left;
+        left: 50%;
+        position: relative;
+        font-size: 20px;
+        list-style-type: none;
+        font-size: 30px;
+       padding:10px;
+        color: black;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+     }
+     ol a:hover {
+            color: red;
+            text-decoration: none;
+  
+
+    }
+    .cover img{
+        background-color: cover;
+        height: 550px;
+        width: 1500px;
+    }
+    .text{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+    h1{
+        font-size: 70px;
+        font-family: barlow condensed,sans-serif;
+        text-transform: capitalize;
+        width: 460px;
+        word-spacing: 0px;
+        font-weight: normal;
+        line-height: 72px;
+        
+
+    }
+  
+    h4{
+        position: absolute;
+        top:-20%;
+        font-size: 18px;
+        font-family: barlow condensed,sans-serif;
+        
+        text-transform: uppercase;
+    
+        
+    }
+    .btn{
+        border: 2px solid crimson;
+        background-color: crimson;
+        color: white;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    .btn :hover{
+        background-color: red;
+        border: red;
+    }
+    .active{
+        color: red;
+    }
+
+       
+    
+
+</style>
+
+<body>
+
+  
+   <div class="box">
+      <ol>
+       <a href="Home.html">Home&nbsp;&nbsp; &nbsp;</a>
+       <a href="product.html">Product &nbsp;&nbsp; &nbsp;</a>
+       <a href="price.html">Price &nbsp;&nbsp; &nbsp;</a>
+       <a href="contact.html">contact Us &nbsp;&nbsp; &nbsp;</a>
+   </ol>
+   <div class="icon">
+    <img src="home1.png" aria-hidden="true" style="width: 20px;"></i>
+    <img src="product1.png" aria-hidden="true" style="width: 20px;margin-left: 120px;margin-top: 10px;"></i>
+    <img src="trolly.png" aria-hidden="true" style="width: 20px;margin-left: 140px;margin-top: 10px;"></i>
+    <img src="contact1.png" aria-hidden="true" style="width: 20px;margin-left: 100px;margin-top: 10px;"></i>
+
+   </div>
+  
+    <ul class="col">
+        <li> <a href="new.html" class="active">New relesea</a></li>
+        <li> <a href="best.html">Best offers</a></li>
+        
+         </ul>
+          </div>
+          <div class="cover">
+              <img src="img.jpg">
+              <div class="text">
+                  <h1>Get Up to 30% off new arrivals</h1>
+                  <h4>Spring/Summer collection 2021</h4>
+                  <button class="btn">Shop Now</button>
+              </div>
+          </div>
+</body>
